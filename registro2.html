@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Logout | ASESORES CREA</title>
+
+</head>
+<body>
+
+<form action="registrarme.php" method="post">
+
+   <lbael>Nombre</label>
+   <input type="text" name="nombre" id="nombre" required/>
+   <br>
+   <lbael>Apellido Paterno</label>
+   <input type="text" name="apellidopaterno" id="apellidopaterno" required/>
+   <br>
+   <lbael>Apellido Materno</label>
+   <input type="text" name="apellidomaterno" id="apellidomaterno" required/>
+   <br>
+   <lbael>Email</label>
+   <input type="email" name="correo-eletronico" id="correo-eletronico" required/>
+   <br>
+   <lbael>Fecha de nacimiento</label>
+   <input type="date" name="fecha-nacimiento" id="fecha-nacimiento"/>
+   <br>
+   <lbael>Teléfono</label>
+   <input type="text" name="telefono" id="telefono"/>
+   <br>
+   <lbael>Sexo</label>
+      <select class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" name="sexo" aria-required="true" aria-invalid="false">
+         <option value="">-- Seleccionar --</option>
+         <option value="F">Femenino</option>
+         <option value="M">Masculino</option>
+      </select>
+   <br>
+   <lbael>Código postal</label>
+   <input type="text" name="codigo-postal" id="codigo-postal"/>
+   <br>
+   <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit">
+   <br>
+
+</form>
+
+</body>
+</html>
